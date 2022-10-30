@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+$font-size-base:                 1rem;
+$font-family-sans-serif:         'Noto Sans JP', sans-serif;
+
+$primary:                        #1A6A3C;
+$secondary:                      #7B7B7B;
+$success:                        #068E40;
+$info:                           #00B8D9;
+$warning:                        #E67614;
+$light:                          #B2B2B2;
+$danger:                         #E81D1D;
+$dark:                           #000000;
+
+$headings-margin-bottom:         0;
+$body-bg:                        #FFFFFF;
+$body-color:                     #637381;
+$link-color:                     unset;
+$link-decoration:                none;
+$link-hover-color:               unset;
+$link-hover-decoration:          none;
+$paragraph-margin-bottom:        0;
+$line-height-base:               1.5;
+$input-btn-padding-y:            .5rem;
+$input-btn-padding-x:            .5rem;
+$input-padding-y:                $input-btn-padding-y;
+$input-padding-x:                $input-btn-padding-x;
+$btn-padding-y:                  $input-btn-padding-y;
+$btn-padding-x:                  $input-btn-padding-x;
+$min-contrast-ratio:             3;
+
+//$input-focus-border-color:       initial;
+$input-btn-focus-color:          initial;
+$input-btn-focus-box-shadow:     none;
+
+$form-check-input-checked-bg-color: $primary;
+$form-check-input-checked-border-color: $primary;
+@import "bootstrap/scss/bootstrap";

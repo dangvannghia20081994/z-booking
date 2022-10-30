@@ -1,0 +1,38 @@
+@import "./bootstrap.scss";
+@import "./custom.scss";
+.e-booking{
+  --size: 320px;
+  .top-menu{
+    padding-left: 30px;
+    height: 65px;
+    z-index: 1050 !important;
+    font-size: 15px;
+    .logo-left{}
+    .logo-right{
+    }
+  }
+  .app-sidebar{
+    width: var(--size);
+    z-index: 1040;
+    padding: 85px 0 20px 0;
+    font-size: 15px;
+    .avatar{
+      width: 30px;
+      height: 30px;
+    }
+    .px-20{
+      padding: 0 20px;
+    }
+  }
+  .app-content{
+    margin-left: var(--size);
+  }
+  .footer-menu{
+    height: 65px;
+    font-size: 15px;
+    .back-top{
+      width: 65px;
+      height: 65px;
+    }
+  }
+}
