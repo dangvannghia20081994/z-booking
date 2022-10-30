@@ -14,7 +14,7 @@
   .app-sidebar{
     width: var(--size);
     z-index: 1040;
-    padding: 85px 0 20px 0;
+    padding: 20px 0;
     font-size: 15px;
     .avatar{
       width: 30px;
@@ -25,7 +25,8 @@
     }
   }
   .app-content{
-    margin-left: var(--size);
+    margin: 65px 0 65px var(--size);
+    padding: 28px;
   }
   .footer-menu{
     height: 65px;

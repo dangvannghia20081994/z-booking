@@ -11,44 +11,63 @@
     </div>
     <div class="list-menu">
       <div class="menu-item">
-        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer">
           <span>icon</span>
           <span>予約管理</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer">
+          <span>icon</span>
+          <span>顧客管理</span>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false">
+          <span>icon</span>
+          <span>販促管理</span>
           <span class="ms-auto">icon</span>
         </div>
         <div class="collapse bg-white rounded-0 bg-opacity-25" id="collapse-1">
           <div class="sub-menu">
-            <div class="sub-menu-item menu-header">クーポン設定</div>
-            <div class="sub-menu-item menu-header">ポイント設定</div>
+            <div class="sub-menu-item menu-header pointer">クーポン設定</div>
+            <div class="sub-menu-item menu-header pointer">ポイント設定</div>
           </div>
         </div>
       </div>
       <div class="menu-item">
-        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false">
           <span>icon</span>
-          <span>予約管理</span>
+          <span>店舗管理</span>
           <span class="ms-auto">icon</span>
         </div>
         <div class="collapse bg-white rounded-0 bg-opacity-25" id="collapse-2">
           <div class="sub-menu">
-            <div class="sub-menu-item menu-header">クーポン設定</div>
-            <div class="sub-menu-item menu-header">ポイント設定</div>
+            <div class="sub-menu-item menu-header pointer">店舗設定</div>
+            <div class="sub-menu-item menu-header pointer">スペース設定</div>
+            <div class="sub-menu-item menu-header pointer">オプションカテゴリ設定</div>
+            <div class="sub-menu-item menu-header pointer">オプション設定</div>
+            <div class="sub-menu-item menu-header pointer">カレンダー設定</div>
           </div>
         </div>
       </div>
       <div class="menu-item">
-        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false">
           <span>icon</span>
-          <span>予約管理</span>
+          <span>お知らせ管理</span>
           <span class="ms-auto">icon</span>
         </div>
         <div class="collapse bg-white rounded-0 bg-opacity-25" id="collapse-3">
           <div class="sub-menu">
-            <div class="sub-menu-item menu-header">クーポン設定</div>
-            <div class="sub-menu-item menu-header">ポイント設定</div>
-            <div class="sub-menu-item menu-header">ポイント設定</div>
-            <div class="sub-menu-item menu-header">ポイント設定</div>
+            <div class="sub-menu-item menu-header pointer">お知らせ設定</div>
+            <div class="sub-menu-item menu-header pointer">カテゴリ設定</div>
           </div>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="d-flex align-items-center gap-2 bg-white bg-opacity-10 menu-header pointer">
+          <span>icon</span>
+          <span>消費税率設定</span>
         </div>
       </div>
     </div>
